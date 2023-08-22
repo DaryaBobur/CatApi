@@ -1,5 +1,6 @@
 import logo from '../../images/logo.svg'
 import { HeaderStyled, LogoLink } from './HeaderStyled';
+
 const Header = () => {
   return (
     <HeaderStyled>
