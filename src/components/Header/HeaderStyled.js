@@ -1,8 +1,7 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 
 export const HeaderStyled = styled.header`
   padding-left: 147px;
-  margin-bottom: 50px;
 `;
 
 export const LogoLink = styled.a`
