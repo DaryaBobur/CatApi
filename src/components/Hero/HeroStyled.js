@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import girlAndPet from '../../images/hero-icons/girl-and-pet.svg';
 
 export const HeroTitle = styled.h1`
   font-size: 44px;
@@ -31,8 +32,11 @@ export const NavList = styled.ul`
   display: flex;
   gap: 16px;
   list-style: none;
-`;
 
+  a {
+    text-decoration: none;
+  }
+`;
 
 export const VotingCardImg = styled.div`
   padding: 37px 19px;
@@ -60,15 +64,35 @@ export const GalleryCardImg = styled.div`
 `;
 
 export const Category = styled.h2`
-color: #FF868E;
-text-align: center;
-font-size: 12px;
-font-weight: 500;
-line-height: 1.33; 
-letter-spacing: 2px;
+  color: #ff868e;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 2px;
 
-margin-top: 10px;
-padding: 10px 0px;
-border-radius: 10px;
-background-color: #FFF;
+  margin-top: 10px;
+  padding: 10px 0px;
+  border-radius: 10px;
+  background-color: #fff;
+`;
+
+export const ContainerImg = styled.div`
+background-image: url(${girlAndPet});
+background-repeat: no-repeat;
+background-size: contain;
+width: 775px;
+height: 900px;
+position: absolute;
+right: 0;
+`
+
+export const ContainerBackground = styled.div`
+width: 680px;
+height: 840px;
+background-color: #FBE0DC;
+position: absolute;
+right: 30px;
+top: 30px;
+border-radius: 20px;
 `
