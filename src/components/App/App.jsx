@@ -1,12 +1,11 @@
-import Header from "../Header/Header";
-import Hero from "../Hero/Hero";
-import {Container} from "../App/AppStyled" 
+import HomePage from 'pages/Home/HomePage';
 
-export const App = () => {
+const App = () => {
   return (
-    <Container>
-      <Header/>
-      <Hero/>
-    </Container>
+    <>
+      <HomePage />
+    </>
   );
 };
+
+export default App;
