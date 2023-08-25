@@ -3,7 +3,6 @@ const HeroImg = () => {
   return (
     <>
       <ContainerBackground></ContainerBackground>
-
       <ContainerImg></ContainerImg>
     </>
   );
