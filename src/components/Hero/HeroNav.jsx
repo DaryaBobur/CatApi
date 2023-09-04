@@ -19,7 +19,6 @@ const HeroNav = () => {
     <Section>
       <ContainerStyled>
         <HeroTitle>Hi&#128075;</HeroTitle>
-        <Description>Welcome to MacPaw Bootcamp 2023</Description>
         <Text>Lets start using The Cat API</Text>
 
         <NavList>
