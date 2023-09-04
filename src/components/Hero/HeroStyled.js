@@ -16,12 +16,6 @@ export const Section = styled.section`
   padding-top: 50px;
 `;
 
-export const Description = styled.p`
-  color: #8c8c8c;
-  font-size: 20px;
-  margin-bottom: 60px;
-`;
-
 export const Text = styled.p`
   font-size: 20px;
   font-weight: 500;
