@@ -5,7 +5,6 @@ import {
   HeroTitle,
   ContainerStyled,
   Section,
-  Description,
   Text,
   NavList,
   VotingCardImg,
